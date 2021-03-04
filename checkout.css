@@ -1,0 +1,63 @@
+/* Navigation CSS */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.main-box {
+    /* border-style: solid; */
+    border-radius: 15px;
+    /* display: inline-flexbox; */
+    padding: 1.2em;
+    margin: 1em;
+    text-align: center;
+}
+
+#book-img {
+    border-style: solid;
+    border-radius: 15px;
+}
+
+/* Div CSS */
+#left {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#right {
+    overflow: hidden;
+    color: red;
+    font-weight: bold;
+}
+
+.buy-btn{
+    margin-left: 0px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+h2{
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}

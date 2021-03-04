@@ -1,0 +1,39 @@
+/* Button CSS */
+.btn-shop{
+    padding: 1.5em;
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 350px;
+    font-size: 1.30em;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+}
+
+/* Navigation CSS */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
